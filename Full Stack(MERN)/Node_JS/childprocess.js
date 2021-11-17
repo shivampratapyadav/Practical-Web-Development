@@ -1,10 +1,8 @@
 /*
-Node js is just like a smart phones:
-which has apps in it,
-just like that, we have modules in node js.
+Node js is just like a smart phone:
+which has apps in it, just like that, we have modules in node js.
 
-
-just like we touch ad use appps and interacts withe them, just like that we use these modules withthe help of js.
+just like we touch, click and use apps (interacts with them), just like that we use these modules in node js with the help of js.
 */
 
 

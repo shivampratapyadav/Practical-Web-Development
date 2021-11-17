@@ -13,7 +13,7 @@ let fs = require("fs");
 
 //Write in the file:
 //no file -> create and if file already exists ->replace content:
-//fs.writeFileSync("abc.txt","Hum aaj cowding Kar rahe hain 🤷‍♂️😜.");
+//fs.writeFileSync("abc.txt","Hum aaj cowding kar rahe hain 🤷‍♂️😜.");
 
 //Update file:
 //if file not present -> create, otherwise, appends the entered content at the last of the content of given file.
@@ -62,3 +62,17 @@ console.log(ans);
 ans = detailsObj.isDirectory();
 console.log(ans);
 
+/*
+Write a program to make 10 folders using node js -> fileSystem module and in them 
+*/
+
+
+
+// for(let i=1;i<=10;i++){
+
+//     let dirPathToMake = `Lecture-${i}`;
+
+//     fs.mkdirSync(dirPathToMake);
+//     fs.writeFileSync(dirPathToMake + "\\"+"readme.md", `# reade for ${dirPathToMake}`);
+
+// }
